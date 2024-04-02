@@ -38,6 +38,12 @@ dependencies:
   firebase_core: ^2.27.0
   firebase_storage: ^11.6.9
   sign_in_button: ^3.2.0
+  cloud_firestore: ^4.15.8
+  image_picker: ^1.0.7
+  path: ^1.8.3
+  get_it: ^7.6.7
+  delightful_toast: ^1.1.0
+  google_fonts: ^6.2.0
 
 dev_dependencies:
   flutter_test:

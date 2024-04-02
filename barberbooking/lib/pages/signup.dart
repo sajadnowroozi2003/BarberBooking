@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:barberbooking/constant.dart';
 import 'package:barberbooking/pages/signin.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -10,6 +13,7 @@ class SignUp extends StatefulWidget {
 }
 
 class _SignUpState extends State<SignUp> {
+  File? selectedImage;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -156,5 +160,13 @@ class _SignUpState extends State<SignUp> {
         ),
       ),
     );
+    // Widget _pfpSelectedFiled() {
+    //   return CircleAvatar(
+    //     radius: MediaQuery.of(context).size.width * 0.15,
+    //     backgroundImage: selectedImage != null
+    //         ? FileImage(selectedImage!)
+    //         : NetworkImage(PLACEHOLDER_PFP) as ImageProvider,
+    //   );
+    // }
   }
 }

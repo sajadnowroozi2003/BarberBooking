@@ -33,7 +33,7 @@ class _HomeState extends State<Home> {
                       height: 20,
                     ),
                     Text(
-                      "Welcome to BarerBooking app with this app you can reservation the barber Time and Date in all provinces in the Afganistan.",
+                      "Welcome to BarerBooking app with this app you can Online reservation the barber Time and Date in all provinces in the Afganistan.",
                       textAlign: TextAlign.center,
                       style: TextStyle(color: Colors.grey[700], fontSize: 15),
                     ),
